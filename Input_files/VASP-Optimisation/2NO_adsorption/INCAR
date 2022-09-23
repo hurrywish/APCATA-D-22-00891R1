@@ -1,0 +1,36 @@
+Global Parameters
+  ISTART =  1          
+  ISPIN =  2         
+  MAGMOM = 95*0 1*0 194*0 1*3 2*0
+  ICHARG =  1        
+  LREAL  = Auto       
+  ENCUT  =  550       
+  PREC   =  Accurate    
+  LWAVE  = .FALSE.      
+  LCHARG = .FALSE.      
+  ADDGRID= .TRUE.      
+  NPAR   = 4          
+  NWRITE = 2          
+ 
+Electronic Relaxation
+  ISMEAR =  0           
+  SIGMA  =  0.05         
+  NELM   =  200          
+  EDIFF  =  1E-05        
+ 
+Ionic Relaxation
+  NSW    =  200         
+  IBRION =  2           
+  ISIF   =  2            
+  EDIFFG = -3.0E-2       
+  ISYM =  0           
+  IVDW =  11
+  LORBIT = 11
+
+LDAU = .TRUE.
+LDAUTYPE = 2
+LDAUL = -1 -1 -1 2 -1
+LDAUU= 0 0 0 6 0
+LDAUJ= 0 0 0 0 0
+LDAUPRINT= 0
+LMAXMIX= 4
