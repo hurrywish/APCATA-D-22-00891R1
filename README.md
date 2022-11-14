@@ -1,4 +1,4 @@
-# APCATA-D-22-00891R1
+# DFT-and-AIMD-input-examples
 
 This repository discloses the input settings and optimised geometries of the study named "Mobile mono-copper active site for NO catalytic decomposition in high silica LTA zeolite". 
 
